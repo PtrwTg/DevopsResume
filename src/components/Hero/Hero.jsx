@@ -16,7 +16,7 @@ function Hero() {
                         <TypeAnimation
                           sequence={[
                             'a Intern',
-                            'a DevOps engineer Intern ',
+                            'a DevOps Engineer Intern ',
                             2000,
                           ]}                         
                           speed={5}
@@ -26,10 +26,12 @@ function Hero() {
                     <p className={styles.text_1}><br />To Whom It May Concern, Hiring Manager</p>
                     <p className={styles.text_4}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm writing this website to say how interested I am about DevOps Engineer Intern role. <br />
 
-I have developed a variety of abilities during my time in college. I have produced an Android application <br /> that enables users to test machine learning models that I have developed for the purpose of identifying music genres. <br /> I also have experience creating information-sharing websites and am quite skilled at creating web and mobile applications. <br /> <br /> I am sure that my experience and skills will be a huge asset to the DevOps Engineer position, <br />and I am excited about the chance to join your team.
+I have developed a variety of abilities during my time in college. I have produced an Android <br />
+application  that enables users to test machine learning models that I have developed for the  <br /> purpose   of identifying music genres. I also have experience creating information-sharing  <br /> websites and am quite skilled at creating web and mobile applications. <br /> <br /> 
 
-Do not hesitate to get in touch with me <br /> if you think that my skills meet the requirements of your company. I appreciate your attention in advance.</p><br />
-                    <p className={styles.text_1}>Regards, <br /> Pattarawit D. (Tiger)</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am sure that my experience and skills will be a huge asset to the DevOps Engineer  <br /> position , and I am excited about the chance to join your team.
+Do not hesitate to get in <br /> touch with me  if you think that my skills meet the requirements of your company.  <br />  I appreciate your attention in advance.</p>
+                    <p className={styles.text_1}> <br />Regards, <br /> Pattarawit D. (Tiger)</p>
                     <ul className={styles.hero_social}>
                         <li><a href="https://github.com/PtrwTg"><FaGithub /></a></li>
                         <li><a href="https://www.linkedin.com/in/pattaravit-duangmark-a33114273/"><FaLinkedinIn /></a></li>

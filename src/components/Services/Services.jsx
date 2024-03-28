@@ -7,11 +7,11 @@ import { SiDart , SiFlutter} from "react-icons/si";
 function Services() {
   return (
     <div className={styles.services_con}>
-        <h3 className={styles.services_title}>other skills</h3>
+        <h3 className={styles.services_title}>Other Skills</h3>
         <div className={styles.services_list}>
             <div className={styles.services_items}>
                 <FaCode />
-                <h4>Language</h4>
+                <h4>Languages</h4>
                 <p style={{ position: 'relative' }}>
                     <span className={styles.skill_icon} data-tooltip="Python">
                         <FaPython />
@@ -33,7 +33,7 @@ function Services() {
             </div>
             <div className={styles.services_items}>
                 <FaLaptopCode />
-                <h4>Frame work</h4>
+                <h4>Framework</h4>
                 <p style={{ position: 'relative' }}>
                     <span className={styles.skill_icon} data-tooltip="React">
                         <FaReact />

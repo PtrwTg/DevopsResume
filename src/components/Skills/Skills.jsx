@@ -6,7 +6,7 @@ import { SiKubernetes, SiTerraform, SiGrafana, SiPrometheus } from "react-icons/
 function Skills() {
   return (
     <div className={styles.skill_con}>
-      <h3 className={styles.skills_title}>Devops pipeline skill</h3>
+      <h3 className={styles.skills_title}>Devops Pipeline Skills</h3>
       <ul className={styles.skills_list}>
         <li className={styles.skill_icon} data-tooltip="Jenkins">
           <FaJenkins />

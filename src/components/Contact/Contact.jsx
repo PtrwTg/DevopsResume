@@ -10,17 +10,18 @@ function Contact() {
     <div className={styles.contact_wrapper}>
         <div className={styles.contact_con}>
             <div className={styles.contact_info}>
-                <h3>Get in touch</h3>
+                <h3>Contact</h3>
                 <p className={styles.contact_desc}>
-                I am sure that my experience and skills will be a huge asset to the DevOps Engineer position,
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am sure that my experience and skills will be a huge asset to the DevOps Engineer position,
                 and I am excited about the chance to join your team. Do not hesitate to get in touch with me
                 if you think that my skills meet the requirements of your company. I appreciate your attention in advance.                </p>
-                <p className={styles.contact_address}>
+                <p className={styles.contact_address}> 
+                Address : <br />
                 162 MOO. 9, Kamphaeng Saen Subdistrict, <br /> Kamphaeng Saen District, 
                 Nakhon Pathom Province 73140 
                 </p>
                 <p><FaPhone />(+66) 83 815 2351</p>
-                <p><FaEnvelope /> mawngai0001@gmail.com</p>
+                <p className={styles.Pmail}><FaEnvelope /> mawngai0001@gmail.com</p>
             </div>
             <div className={styles.contact_form}>
           <div className={styles.link_container}>

@@ -36,7 +36,7 @@ function Navbar() {
           to="services"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-50}
           duration={500}
           className={styles.button}
         >

@@ -8,7 +8,7 @@ import Inform from './information.png';
 function Portfolio() {
   return (
     <div className={styles.port_con}>
-        <h3 className={styles.port_title}>My project</h3>
+        <h3 className={styles.port_title}>My Projects</h3>
         <div className={styles.port_list}>
             <div className={styles.port_items}>
                 <a href="https://github.com/PtrwTg/MainOurAi"><img src={AI} alt="" /></a>
