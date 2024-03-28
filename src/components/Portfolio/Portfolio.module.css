@@ -1,11 +1,11 @@
 .port_con {
     max-width: 1170px;
-    height: 900px;
+    height: 500px;
     margin:0 auto;
     overflow: hidden;
 
     & .port_title {
-        margin-top: 45px;
+        margin-top: 0px;
         text-align: center;
         font-size: 32px;
         font-weight: bold;

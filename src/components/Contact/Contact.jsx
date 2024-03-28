@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from './Contact.module.css'
-import { FaPhone, FaEnvelope} from 'react-icons/fa6'
+import Resume_devops from './Resume_devops.pdf'
+import CV_devops from './CV_devops.pdf'
+import transcript from './transcript.pdf'
+import { FaPhone, FaEnvelope, FaFileWord, FaFileInvoice} from 'react-icons/fa6'
+import { FaFileAlt } from "react-icons/fa";
 function Contact() {
   return (
     <div className={styles.contact_wrapper}>
@@ -8,37 +12,35 @@ function Contact() {
             <div className={styles.contact_info}>
                 <h3>Get in touch</h3>
                 <p className={styles.contact_desc}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga eius eligendi in laboriosam delectus ipsum inventore alias dolorem ducimus aliquid.
-                </p>
+                I am sure that my experience and skills will be a huge asset to the DevOps Engineer position,
+                and I am excited about the chance to join your team. Do not hesitate to get in touch with me
+                if you think that my skills meet the requirements of your company. I appreciate your attention in advance.                </p>
                 <p className={styles.contact_address}>
-                    123 Main Street <br />
-                    Bangkok, Thailand 
+                162 MOO. 9, Kamphaeng Saen Subdistrict, <br /> Kamphaeng Saen District, 
+                Nakhon Pathom Province 73140 
                 </p>
-                <p><FaPhone />(+66) 98 555 1234</p>
-                <p><FaEnvelope />support@site.com</p>
+                <p><FaPhone />(+66) 83 815 2351</p>
+                <p><FaEnvelope /> mawngai0001@gmail.com</p>
             </div>
             <div className={styles.contact_form}>
-                <form action="">
-                    <div className={styles.input_group}>
-                        <div>
-                            <label htmlFor="first name">First Name</label>
-                            <input type="text" placeholder='eg. Jhon' />
-                        </div>
-                        <div>
-                            <label htmlFor="last name">Last Name</label>
-                            <input type="text" placeholder='eg. Doe' />
-                        </div>
-                    </div>
-                    <label htmlFor="email address">Email Address</label>
-                    <input type="email" placeholder='eg. mawngai0001@gmail.com' />
-                    <label htmlFor="massage">Your massage</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder='Type here'></textarea>
-                    <button type='submit'>Submit</button>
-                </form>
-            </div>
+          <div className={styles.link_container}>
+            <a href={Resume_devops} className={styles.link}>
+              <FaFileAlt className={styles.link_icon} />
+              <span>My Resume</span>
+            </a> <br /><br />
+            <a href={CV_devops} className={styles.link}>
+              <FaFileWord className={styles.link_icon} />
+              <span>My CV</span>
+            </a> <br /><br />
+            <a href={transcript} className={styles.link}>
+              <FaFileInvoice className={styles.link_icon} />
+              <span>My Transcript</span>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
